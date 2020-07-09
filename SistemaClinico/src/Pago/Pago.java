@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.model;
+package Pago;
 
 /**
  *
- * @author william
+ * @author USER
  */
-public class Administrador {
+public interface Pago {
     
+    public boolean realizarPago(float monto);
+
 }

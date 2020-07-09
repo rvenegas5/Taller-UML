@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.model;
+package PlanNutricional;
 
 /**
  *
- * @author william
+ * @author USER
  */
-public class Paciente {
+public class PlanNutricional {
+    protected String descripcion;
+    
+    public PlanNutricional()
+    {
+        
+    }
     
 }

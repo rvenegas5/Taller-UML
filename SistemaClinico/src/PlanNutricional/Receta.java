@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.model;
+package PlanNutricional;
+
+import java.util.Date;
 
 /**
  *
- * @author william
+ * @author USER
  */
-public class Cita {
+public class Receta {
+    protected Date fecha;
     
+    public Receta()
+    {
+        
+    }
 }

@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.model;
+package AreaMedica;
 
-/**
- *
- * @author william
- */
-public class Secretaria {
+
+public class AreaMedica {
+    protected String especialidad;
+    protected float costo;
     
+    public AreaMedica()
+    {
+        
+    }
 }
