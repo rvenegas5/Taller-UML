@@ -17,9 +17,9 @@ public class Doctor extends Persona{
     
     protected int regDoctor;
     protected String especialidad;
-    AreaMedica areaMed;
-    Secretaria sec;
-    ArrayList<Cita> citasPendientes;
+    protected AreaMedica areaMed;
+    protected Secretaria sec;
+    protected ArrayList<Cita> citasPendientes;
     public Doctor()
     {
         

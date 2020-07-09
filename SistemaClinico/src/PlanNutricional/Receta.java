@@ -16,10 +16,10 @@ import java.util.Date;
  */
 public class Receta {
     protected Date fecha;
-    PlanNutricional planNut;
-    Paciente paciente;
-    ArrayList<Medicamento> medicamentos;
-    Doctor doctor;
+    protected PlanNutricional planNut;
+    protected Paciente paciente;
+    protected ArrayList<Medicamento> medicamentos;
+    protected Doctor doctor;
     public Receta()
     {
         

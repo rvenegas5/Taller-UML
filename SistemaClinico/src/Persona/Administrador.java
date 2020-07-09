@@ -10,5 +10,11 @@ package Persona;
  * @author USER
  */
 public class Administrador {
+    public Administrador(){}
     
+    public void registrarUsuario(){}
+    
+    public void asignarRol(Persona p){
+    
+    }
 }

@@ -18,8 +18,8 @@ public class Cita {
     protected Date fecha;
     protected boolean pagada;
     protected String registradoPor;
-    Paciente paciente;
-    Doctor doctor;    
+    protected Paciente paciente;
+    protected Doctor doctor;    
     public Cita()
     {
         

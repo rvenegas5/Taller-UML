@@ -16,9 +16,9 @@ import java.util.ArrayList;
  */
 public class Paciente extends Persona{
     protected String email;
-    HistoriaClinica hc;
-    ArrayList<Receta> recetas;
-    Cita cita;
+    protected HistoriaClinica hc;
+    protected ArrayList<Receta> recetas;
+    protected Cita cita;
     public Paciente()
     {
         

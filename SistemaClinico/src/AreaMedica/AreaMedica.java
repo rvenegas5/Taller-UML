@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class AreaMedica {
     protected String especialidad;
     protected float costo;
-    ArrayList<Doctor> doctores;
+    protected ArrayList<Doctor> doctores;
     public AreaMedica()
     {
         

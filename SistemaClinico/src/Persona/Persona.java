@@ -19,7 +19,7 @@ public class Persona {
     protected String cedula;
     protected String direccion;
     protected Date fechaNac;
-    Administrador registradoPor;
+    protected Administrador registradoPor;
     public Persona()
     {
         
