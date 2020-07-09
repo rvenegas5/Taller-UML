@@ -5,13 +5,20 @@
  */
 package Persona;
 
+import HistoriaClinica.Cita;
+import HistoriaClinica.HistoriaClinica;
+import PlanNutricional.Receta;
+import java.util.ArrayList;
+
 /**
  *
  * @author USER
  */
 public class Paciente extends Persona{
     protected String email;
-    
+    HistoriaClinica hc;
+    ArrayList<Receta> recetas;
+    Cita cita;
     public Paciente()
     {
         

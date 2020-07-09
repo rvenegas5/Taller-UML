@@ -5,6 +5,9 @@
  */
 package PlanNutricional;
 
+import Persona.Doctor;
+import Persona.Paciente;
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -13,7 +16,10 @@ import java.util.Date;
  */
 public class Receta {
     protected Date fecha;
-    
+    PlanNutricional planNut;
+    Paciente paciente;
+    ArrayList<Medicamento> medicamentos;
+    Doctor doctor;
     public Receta()
     {
         

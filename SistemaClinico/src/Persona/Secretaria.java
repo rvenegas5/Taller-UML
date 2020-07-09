@@ -10,7 +10,7 @@ package Persona;
  * @author USER
  */
 public class Secretaria extends Persona{
-    
+    Doctor doctor;
     public Secretaria()
     {
         

@@ -6,6 +6,8 @@
 package HistoriaClinica;
 
 import Pago.Pago;
+import Persona.Doctor;
+import Persona.Paciente;
 import java.util.Date;
 
 /**
@@ -16,7 +18,8 @@ public class Cita {
     protected Date fecha;
     protected boolean pagada;
     protected String registradoPor;
-    
+    Paciente paciente;
+    Doctor doctor;    
     public Cita()
     {
         

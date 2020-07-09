@@ -5,6 +5,10 @@
  */
 package Persona;
 
+import AreaMedica.AreaMedica;
+import HistoriaClinica.Cita;
+import java.util.ArrayList;
+
 /**
  *
  * @author USER
@@ -13,7 +17,9 @@ public class Doctor extends Persona{
     
     protected int regDoctor;
     protected String especialidad;
-    
+    AreaMedica areaMed;
+    Secretaria sec;
+    ArrayList<Cita> citasPendientes;
     public Doctor()
     {
         
