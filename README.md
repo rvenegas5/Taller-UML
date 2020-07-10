@@ -6,7 +6,7 @@
 - Danny Montenegro
 - Adriana Guilindro
 - Manuel Loor
-- Gustavo Chonillo
+- Gustavo Chonillo Vera
 - William Venegas
 
 ## Diagrama de Secuencias - `Solicitar Cita`
